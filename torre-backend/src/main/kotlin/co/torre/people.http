@@ -1,0 +1,31 @@
+
+GET http://127.0.0.1:9090/people/qohatpretelpolo
+
+###
+
+GET http://127.0.0.1:9090/goals/1
+
+###
+
+POST http://127.0.0.1:9090/goals/all
+Content-Type: application/json
+
+[
+  {
+    "peopleId": 1,
+    "interestId": "q2w3e12",
+    "interestName": "English",
+    "expirationDate": null,
+    "score": 12
+  },
+  {
+    "peopleId": 1,
+    "interestId": "q2w3e2",
+    "interestName": "English",
+    "expirationDate": null,
+    "score": 12
+  }
+]
+
+
+###

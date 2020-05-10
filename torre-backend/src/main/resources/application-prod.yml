@@ -1,0 +1,28 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: none
+      format_sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQL9Dialect
+    show-sql: false
+  datasource:
+    url: jdbc:postgresql://0.0.0.0:5432/torre_db
+    password: pwd_torre
+    username: u_torre
+    driver-class-name: org.postgresql.Driver
+  rsocket:
+    server:
+      transport: websocket
+      mapping-path: /rsocket
+local:
+  server:
+    port: 8080
+app:
+  security:
+    ignored: /prospect
+server:
+  port: 5000
+rest:
+  torre: https://bio.torre.co/api

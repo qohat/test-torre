@@ -1,0 +1,15 @@
+2020-05-07 21:29:25,674 INFO org.springframework.boot.StartupInfoLogger [main] Starting DocHealthApplicationKt on MacBook-Pro-de-Carlos.local with PID 33777 (/Users/carloscorreacano/Desktop/repos/boxhealth-be/build/classes/kotlin/main started by carloscorreacano in /Users/carloscorreacano/Desktop/repos/boxhealth-be)
+2020-05-07 21:29:25,679 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: dev
+2020-05-07 21:29:27,026 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-05-07 21:29:27,141 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 101ms. Found 4 JPA repository interfaces.
+2020-05-07 21:29:28,061 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-05-07 21:29:28,193 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-05-07 21:29:28,406 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-05-07 21:29:28,555 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-05-07 21:29:28,664 INFO com.zaxxer.hikari.pool.PoolBase [main] HikariPool-1 - Driver does not support get/set network timeout for connections. (Method org.postgresql.jdbc.PgConnection.getNetworkTimeout() is not yet implemented.)
+2020-05-07 21:29:28,682 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-05-07 21:29:28,701 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+2020-05-07 21:29:30,460 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-05-07 21:29:30,472 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-05-07 21:29:32,121 INFO org.springframework.boot.web.embedded.netty.NettyWebServer [main] Netty started on port(s): 9090
+2020-05-07 21:29:32,128 INFO org.springframework.boot.StartupInfoLogger [main] Started DocHealthApplicationKt in 7.035 seconds (JVM running for 9.0)
