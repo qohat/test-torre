@@ -1,0 +1,37 @@
+<div class="container margin-top margin-bottom">
+  <div class="row">
+    <h1 class="align-center">Improve your skills and get your first Job</h1>
+    <div class="col-12 col-md-8 offset-md-2 margin-top">
+      <form [formGroup]="fg">
+        <div class="row" *ngFor="let int of interests">
+          <div class="col-12">
+            <h3>{{int.name}}</h3>
+          </div>
+          <div class="col-12 col-md-6">
+            <mat-form-field appearance="outline">
+              <mat-label>What level you want to reach?</mat-label>
+              <mat-select formControlName="{{int.id}}">
+                <mat-option *ngFor="let lev of levels" [value]="lev">
+                  {{lev.value}}
+                </mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+          <div class="col-12 col-md-6">
+            <mat-form-field appearance="outline">
+              <mat-label>When it will come true?</mat-label>
+              <input matInput [min]="" [matDatepicker]="picker" formControlName="{{int.id + 'Date'}}">
+              <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+              <mat-datepicker #picker></mat-datepicker>
+            </mat-form-field>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <button mat-raised-button class="bg-primary text-white right" (click)="save()" [disabled]="fg.invalid">Save</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,18 @@
+<mat-toolbar>
+  <mat-icon (click)="sidenav.toggle()">menu</mat-icon>
+  Torre for inexperienced</mat-toolbar>
+<ct-spinner></ct-spinner>
+<mat-sidenav-container>
+  <mat-sidenav #sidenav>
+    <mat-nav-list>
+      <a (click)="sidenav.toggle()" mat-list-item [routerLink]="'/home'"><mat-icon>home</mat-icon> Home</a>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <div style="height: 92vh;">
+      <div class="container">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </mat-sidenav-content>
+</mat-sidenav-container>

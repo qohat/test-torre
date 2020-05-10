@@ -1,0 +1,25 @@
+POST http://127.0.0.1:8080/prospect/validate
+Content-Type: application/json
+
+{
+    "id": {"value": "prueba"},
+    "name": {"value": "prueba de usuario"},
+    "document": {"value": "1029292929"},
+    "documentType": {"value": "C.C"},
+    "issuingDate": {"value": "2001-09-01 12:00:00"}
+}
+
+###
+
+GET http://127.0.0.1:8080/prospect
+Content-Type: application/json
+
+###
+
+GET http://127.0.0.1:8080/contact
+Content-Type: application/json
+
+###
+
+
+

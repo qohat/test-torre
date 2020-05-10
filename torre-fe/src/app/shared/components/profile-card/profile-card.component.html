@@ -1,0 +1,6 @@
+<mat-card class="align-center margin-top">
+  <img src="{{profile.image}}" width="100%"/>
+  <h2 class="margin-top">{{profile.name}}</h2>
+  <p title="{{profile.professionalHeadLine}}">{{profile.professionalHeadLine}}</p>
+  <button mat-raised-button class="right" [routerLink]="'/people/interested-skills/' + profile.profileName">Go!</button>
+</mat-card>

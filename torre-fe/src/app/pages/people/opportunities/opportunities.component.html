@@ -1,0 +1,9 @@
+<div class="container margin-top margin-bottom">
+  <div class="row">
+    <h1 class="align-center">Look the opportunities related with your skills in progress</h1>
+    <h3 class="margin-top">Your skills</h3>
+    <div class="col-12 col-md-3 margin-top" *ngFor="let goal of goals">
+      <ct-skill-card [goal]="goal"></ct-skill-card>
+    </div>
+  </div>
+</div>
