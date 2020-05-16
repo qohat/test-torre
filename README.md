@@ -17,7 +17,7 @@ Basically the app get the profile name of user and get the interests from his bi
 
 --------------
 
-With the interests loaded a reactive form dinamic is generates, please fill the form and continue.
+With the interests loaded, a reactive form dinamic is generated, please fill the form and continue.
 
 ---- To restart with another user, use de side nav and go to home.
 
